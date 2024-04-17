@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" id="page2">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local Storage</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="heading">
+            <h1>Registration Form </h1>
+        </header>
+        <section class="form-section">
+            <form>
+                <div class="inline-form">
+                    
+                    <div class="form-group">
+                        
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" placeholder="eg : Shailesh" />
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lastname" placeholder="eg : Gaikwad" />
+                    </div>
+                </div>
+
+                <div class="inline-form">
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="eg : user@example.com" />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone No</label>
+                        <input type="tel" id="phone" placeholder="eg : +91 80107 78440" />
+                    </div>
+
+
+                </div>
+
+                <div class="inline-form">
+                    
+                    <div class="form-group">
+                        <label for="username">username</label>
+                        <input type="tel" id="username" placeholder="username" />
+                    </div>
+                   
+
+
+                </div>
+
+                <div class="form-group">
+                    <label>Gender</label>
+                    <div class="radio-inline-group">
+
+                        <div class="radio-inline">
+                            <label for="male">Male</label>
+                            <input type="radio" id="male" value="Male" name="gender" />
+                        </div>
+
+                        <div class="radio-inline">
+                            <label for="female">Female</label>
+                            <input type="radio" id="female" value="Female" name="gender" />
+                        </div>
+                        <div class="radio-inline">
+                            <label for="other">Other</label>
+                            <input type="radio" id="other" value="Other" name="gender" />
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="form-group bio">
+                    <label for="bio">Short bio</label>
+                    <textarea id="bio"></textarea>
+
+                </div>
+
+                <div class="inline-form">
+                    
+                    <div class="form-group">
+                        
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="password" />
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id="confirm_password" placeholder="password" />
+                        <!-- here the value of id will be different from the previous to focus confirm password box , because both of the type is same which is password.-->
+                    </div>
+                </div>
+
+                
+
+                <div class="form-group">
+                    <button class="btn btn-reset" type="reset">Reset</button>
+                    <button class="btn btn-submit" type="submit">Submit</button> &nbsp; OR &nbsp;
+                    <a href="login.html" class="login">login</a>
+                </div>
+              
+
+            </form>
+        </section>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+<script>
+VANTA.CLOUDS({
+  el: "#page2",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  speed: 1.50
+})
+</script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+#page{
+    height: 100%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B85042;
+}
+#userData{
+    margin: 50px;
+}
+table{
+    padding: 10px;
+    
+}
+tr{
+    font-size: 20px;
+   
+    
+}
+
+
+table {
+    
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 100%;
+}
+
+th, td {
+    border: 10px solid rgba(167,190,174,0.1);
+    border-radius: 50px;
+   
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: rgba(184,80,66,0.5);
+    transition: all  .4s ease-in-out;
+}
+
+th:hover{
+    cursor: pointer;
+    background-color: #B85042;
+    scale:  1.06;
+    transition: all  .4s ease-in-out;
+}
+td{
+    background-color:rgba(231,232,209,0.5);
+    transition: all  .4s ease-in-out;
+}
+td:hover{
+    cursor: pointer;
+    background-color: #E7E8D1;
+    scale:  1.06;
+    transition: all  .4s ease-in-out;
+}
